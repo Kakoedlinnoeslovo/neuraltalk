@@ -5,7 +5,7 @@ import caffe
 import os.path
 import numpy as np
 from scipy.misc import imread, imresize
-from imagernn.imagernn_utils import decodeGenerator
+from neuraltalk.imagernn.imagernn_utils import decodeGenerator
 import cPickle as pickle
 
 caffe.set_mode_cpu()
