@@ -1,8 +1,8 @@
 # NeuralTalk
 
-- The single python function to generate sentence from image.
 - Forked from [NeuralTalk](https://github.com/karpathy/neuraltalk)
-- An original [Readme.md](https://github.com/Thanabhat/neuraltalk/neuraltalk/Readme.md) is placed at neuraltalk/Readme.md
+- Add a single python function to generate sentence from image.
+- An original [Readme.md](neuraltalk/Readme.md) is placed at neuraltalk/Readme.md
 
 ## Prerequisites
 - [Caffe](http://caffe.berkeleyvision.org/) and [Caffe's python interface](http://caffe.berkeleyvision.org/installation.html#python) installed on your environment
