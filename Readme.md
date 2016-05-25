@@ -9,7 +9,7 @@
 
 ## Setup
 1. Install NeuralTalk using pip `sudo pip install git+https://github.com/Thanabhat/neuraltalk.git`
-2. Download `VGG_ILSVRC_16_layers.caffemodel` from http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/ and place at `python_features/VGG_ILSVRC_16_layers.caffemodel`
+2. Download `VGG_ILSVRC_16_layers.caffemodel` from http://www.robots.ox.ac.uk/~vgg/research/very_deep/ and place at `python_features/VGG_ILSVRC_16_layers.caffemodel`
 3. Download `coco_cnn_lstm_v2.zip` from http://cs.stanford.edu/people/karpathy/neuraltalk/ , extract and place at `model/model_checkpoint_coco_visionlab43.stanford.edu_lstm_11.14.p`
 
 ## Example
