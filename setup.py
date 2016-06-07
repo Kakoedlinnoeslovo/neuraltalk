@@ -17,5 +17,5 @@ setup(name='neuraltalk',
       license='BSD',
       url='https://github.com/Thanabhat/neuraltalk',
       packages=['neuraltalk', 'neuraltalk.imagernn'],
-      package_data={'neuraltalk': ['python_features/*', 'model/*']}
+      data_files=[('neuraltalk', ['data/README.md', 'python_features/README.md', 'python_features/deploy_features.prototxt'])]}
      )
