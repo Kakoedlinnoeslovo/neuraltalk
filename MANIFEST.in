@@ -1,2 +1,2 @@
-recursive-include python_features *
-recursive-include model *
+recursive-include python_features *.*
+recursive-include model *.*
