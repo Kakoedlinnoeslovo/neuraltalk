@@ -8,11 +8,12 @@
 - [Caffe](http://caffe.berkeleyvision.org/) and [Caffe's python interface](http://caffe.berkeleyvision.org/installation.html#python) installed on your environment
 
 ## Setup
+#### Setup option 1 (manual)
 1. Install NeuralTalk using pip `sudo pip install git+https://github.com/Thanabhat/neuraltalk.git`
 2. Download `VGG_ILSVRC_16_layers.caffemodel` from http://www.robots.ox.ac.uk/~vgg/research/very_deep/ and place at `python_features/VGG_ILSVRC_16_layers.caffemodel`
 3. Download `coco_cnn_lstm_v2.zip` from http://cs.stanford.edu/people/karpathy/neuraltalk/ , extract and place at `model/model_checkpoint_coco_visionlab43.stanford.edu_lstm_11.14.p`
 
-#### Setup option (script)
+#### Setup option 2 (script)
 You may need to change the path '/usr/local/lib/python2.7/dist-packages/' to match your environment.
 ```
 # install
@@ -23,7 +24,7 @@ sudo wget -O /home/coco_cnn_lstm_v2.zip "http://cs.stanford.edu/people/karpathy/
 sudo python -m neuraltalk.caption_generator
 ```
 
-#### Setup option (docker)
+#### Setup option 3 (docker)
 https://hub.docker.com/r/thanabhat/docker-neuraltalk/
 
 ## Example
