@@ -12,7 +12,7 @@
 2. Download `VGG_ILSVRC_16_layers.caffemodel` from http://www.robots.ox.ac.uk/~vgg/research/very_deep/ and place at `python_features/VGG_ILSVRC_16_layers.caffemodel`
 3. Download `coco_cnn_lstm_v2.zip` from http://cs.stanford.edu/people/karpathy/neuraltalk/ , extract and place at `model/model_checkpoint_coco_visionlab43.stanford.edu_lstm_11.14.p`
 
-### Setup option (script)
+#### Setup option (script)
 You may need to change the path '/usr/local/lib/python2.7/dist-packages/' to match your environment.
 ```
 # install
@@ -22,6 +22,9 @@ sudo wget -O /home/coco_cnn_lstm_v2.zip "http://cs.stanford.edu/people/karpathy/
 # test
 sudo python -m neuraltalk.caption_generator
 ```
+
+#### Setup option (docker)
+https://hub.docker.com/r/thanabhat/docker-neuraltalk/
 
 ## Example
 Write this python code, place some `img.jpg`, run and get the sentence!
